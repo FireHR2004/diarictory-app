@@ -34,7 +34,7 @@ const Jakbar = () => {
         <div className="overflow-hidden xl:w-[450rem]">
           <img src={img1} alt="" />
         </div>
-        <div className="p-5 text-[15px] xl:text-[25px] m-auto justify-center items-center relative text-justify font-Poppins">
+        <div className="p-5 text-[15px] xl:text-[25px] m-auto justify-center items-center relative text-justify font-Poppins xl:px-20">
           <Fade bottom duration={1500}>
             <h3 className="font-bold text-6xl text-Montserrat uppercase py-10">Kota Tua</h3>
             <p className='font-Poppins'>Kota Tua, in West Jakarta, is a historic area known as Batavia during the Dutch colonial period. This area has Dutch colonial buildings such as the Fatahillah Museum and the Zion Church. Kota Tua is also a center for commerce and ethnic communities that have contributed to the development of Jakarta. Although neglected, the area has been restored and is a popular tourist destination with museums, cafes, and souvenir shops. Kota Tua is a witness to the development of Jakarta's history and the beauty of Dutch architecture that is still preserved.</p>
@@ -77,7 +77,7 @@ const Jakbar = () => {
           </div>
         </Fade>
         <Fade left duration={2500}>
-          <div className="p-5 text-[15px] xl:text-[25px] m-auto justify-center items-center relative xl:mx-44 text-justify font-Poppins">
+          <div className="p-5 text-[15px] xl:text-[25px] m-auto justify-center items-center relative xl:mx-44 text-justify font-Poppins mt-10">
               <p>Kopi Tak Kie is a legendary coffee shop in Glodok, West Jakarta. This shop has been operating since 1927 and is famous for serving traditional coffee with a distinctive taste. Kopi Tak Kie offers an authentic retro atmosphere and is a favorite destination for coffee lovers who want to experience coffee from the past. This coffee shop also offers snacks and traditional snacks.</p>
           </div>
         </Fade>
