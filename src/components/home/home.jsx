@@ -65,7 +65,7 @@ const Home = ({ url, image, title }) => {
             <div className='p-10 justify-center flex text-center font-bold text-[45px]'>
               <h1 className='tracking-[10px] uppercase'>Regency</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center items-center justify-items-center p-10'>
+            <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 text-center items-center justify-items-center p-10'>
               {/* {[
                 ['../jakut/jakut', './assets/2.1.jpg', 'North Jakarta']
               ]}.map(([url, image, title]))

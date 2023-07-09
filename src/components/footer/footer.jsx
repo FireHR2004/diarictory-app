@@ -6,7 +6,7 @@ import logo from './assets/2.png';
 const Footer = () => {
     return(
       <footer className='font-Poppins'>
-        <div className='flex-col xl:flex xl:flex-row justify-center w-full xl:px-[100px]'>
+        <div className='flex-col xl:flex xl:flex-row justify-center w-full py-8'>
           <div className='p-5 mx-[10vh] md:px-auto'>
             <div className='font-bold text-center'>
               <img src={logo} className='w-[250px]'/>
