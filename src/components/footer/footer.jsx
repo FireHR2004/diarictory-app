@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './footer.module.css';
 import logo from './assets/2.png';
+import { FaBeer, FaTwitter, FaInstagram, FaWhatsapp} from "react-icons/fa";
 
 const Footer = () => {
     return(
@@ -25,11 +26,11 @@ const Footer = () => {
             <div className='font-bold text-left pt-5'>
               <h3>Contact Us</h3>
             </div>
-            <div className='text-justify pr-5 pt-5'>
+            <div className='text-justify pr-5 pt-5 text-[15px]'>
               <ul>
-                <li>Instagram</li>
-                <li>twitter</li>
-                <li>Whatsapp</li>
+                <li className='flex items-center'><FaInstagram className='mr-2'/>Instagram</li>
+                <li className='flex items-center'><FaTwitter className='mr-2'/>twitter</li>
+                <li className='flex items-center'><FaWhatsapp className='mr-2'/>Whatsapp</li>
               </ul>
             </div>
           </div>
