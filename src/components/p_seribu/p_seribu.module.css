@@ -1,0 +1,13 @@
+.PSeribu {}
+
+.eblur{
+    box-shadow: -5px -93px 43px -34px rgba(255,255,255,1) inset;
+    -webkit-box-shadow: -5px -93px 43px -34px rgba(255,255,255,1) inset;
+    -moz-box-shadow: -5px -93px 43px -34px rgba(255,255,255,1) inset;
+}
+
+.center .slick-center .slider{
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+  }
+  
